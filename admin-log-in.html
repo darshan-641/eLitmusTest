@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./admin-log-in.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="admin-log-in">
+      <div class="navbar6">
+        <div class="black-el-parent1">
+          <img class="black-el-icon6" alt="" src="./public/black-el6.svg" />
+          <div class="login-as-student-wrapper">
+            <div class="login-as-student" id="loginAsStudent">
+              Login as Student
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="admin-body1">
+        <div class="frame-parent2">
+          <div class="welcome-to-elitmus-platform-container">
+            <div class="welcome-to-elitmus2">Welcome to eLitmus Platform.</div>
+            <div class="elitmus-is-a2">
+              eLitmus is a first-of-its-kind service in the world. Since it was
+              launched in 2005, eLitmus has been redefining how fresher and
+              entry-level recruitment is done in India. Our proprietary pH Test
+              evaluates job seekers.
+            </div>
+          </div>
+          <form class="log-in-box2">
+            <div class="input-info6">
+              <div class="email-id1">Email Id</div>
+              <input class="input-area3" type="text" autofocus />
+            </div>
+            <div class="input-info6">
+              <div class="email-id1">Password</div>
+              <input class="input-area3" type="text" autofocus />
+            </div>
+            <button class="log-in-box-child" id="groupButton">
+              <div class="log-in-wrapper">
+                <div class="log-in1">Log In</div>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginAsStudent = document.getElementById("loginAsStudent");
+      if (loginAsStudent) {
+        loginAsStudent.addEventListener("click", function (e) {
+          window.location.href = "./student-login.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./user-page.html";
+        });
+      }
+      </script>
+  </body>
+</html>

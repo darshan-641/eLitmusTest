@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./user-page.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="user-page">
+      <img class="navbar-icon2" alt="" src="./public/navbar2.svg" />
+      <div class="user-body">
+        <div class="column">
+          <div class="whole-row">
+            <div class="col-no"><div class="sr-no">Sr. No</div></div>
+            <div class="col-no1"><div class="sr-no">Candidates Name</div></div>
+            <div class="col-no2"><div class="sr-no">Flag Count</div></div>
+          </div>
+          <div class="whole-row1">
+            <div class="col-no3"><div class="sr-no">1</div></div>
+            <div class="col-no4" id="colNoContainer4">
+              <div class="sr-no">Darshan Annasaheb Revgade</div>
+            </div>
+            <div class="col-no5"><div class="sr-no">1</div></div>
+          </div>
+          <div class="whole-row1">
+            <div class="col-no3"><div class="sr-no">1</div></div>
+            <div class="col-no1">
+              <div class="sr-no">Darshan Annasaheb Revgade</div>
+            </div>
+            <div class="col-no5"><div class="sr-no">1</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar3">
+        <div class="black-el-frame">
+          <img class="black-el-icon3" alt="" src="./public/black-el3.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var colNoContainer4 = document.getElementById("colNoContainer4");
+      if (colNoContainer4) {
+        colNoContainer4.addEventListener("click", function (e) {
+          window.location.href = "./user-images.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./popup.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="navbar4">
+        <div class="black-el-wrapper1">
+          <img class="black-el-icon4" alt="" src="./public/black-el4.svg" />
+        </div>
+      </div>
+      <div class="audio-video-body">
+        <div class="allow-per-parent">
+          <div class="allow-per">
+            <div class="rectangle-parent">
+              <div class="frame-inner" id="camera-frame"></div>
+              <div class="material-symbolscamera-video-parent">
+                <img
+                  class="material-symbolscamera-video-icon"
+                  alt=""
+                  src="./public/materialsymbolscameravideo.svg"
+                /><button class="allow-camera-wrapper">
+                  <div class="allow-camera">Allow Camera</div>
+                </button>
+              </div>
+            </div>
+            <div class="carbonmicrophone-filled-parent">
+              <img
+                class="carbonmicrophone-filled-icon"
+                alt=""
+                src="./public/carbonmicrophonefilled.svg"
+              /><button class="allow-microphone-wrapper">
+                <div class="allow-camera">Allow Microphone</div>
+              </button>
+            </div>
+          </div>
+          <div class="description-box">
+            <div class="description-text">
+              <div class="instructions-to-follow">Instructions to follow:</div>
+              <div class="please-enable-your-container">
+                <p class="please-enable-your">
+                  1. Please enable your camera and microphone for live
+                  proctoring.
+                </p>
+                <p class="please-enable-your">
+                   2. Ensure to keep your face in the middle of the screen.
+                </p>
+                <p class="please-enable-your">
+                   3. The background must be a plain background(preferably
+                  white).
+                </p>
+                <p class="please-enable-your">
+                   4. Ensure that the images are not blur.
+                </p>
+                <p class="please-enable-your">&nbsp;</p>
+                <p class="please-enable-your">
+                  5. While testing the audio, click on the play button and
+                  record an audio.
+                </p>
+              </div>
+            </div>
+            <div class="begin-test-button" id="beginTestButtonContainer">
+              <div class="begin-test">Begin Test</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var beginTestButtonContainer = document.getElementById(
+        "beginTestButtonContainer"
+      );
+      if (beginTestButtonContainer) {
+        beginTestButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "./question-answer.html";
+        });
+      }
+      </script>
+  </body>
+</html>

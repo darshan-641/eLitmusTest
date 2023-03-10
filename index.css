@@ -1,0 +1,141 @@
+.black-el-icon {
+  position: relative;
+  width: 6.63rem;
+  height: 1.31rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.login-as-admin {
+  position: relative;
+  font-size: var(--ui-body-02-size);
+  font-family: var(--ui-body-02);
+  color: var(--color-darkorange-100);
+  text-align: left;
+  cursor: pointer;
+}
+.login-as-admin-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--color-darkorange-100);
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.black-el-parent,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.black-el-parent {
+  flex: 1;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(108, 108, 108, 0.25);
+  width: 79.38rem;
+  padding: var(--padding-sm) var(--padding-31xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.elitmus-is-a,
+.welcome-to-elitmus {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 31.06rem;
+}
+.elitmus-is-a {
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+}
+.welcome-to-elitmus-platform-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.input-info,
+.start-test {
+  font-family: var(--ui-body-02);
+}
+.input-info {
+  border: 0;
+  font-size: var(--ui-body-01-size);
+  background-color: transparent;
+  width: 26.25rem;
+  height: 4.25rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.start-test {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.63rem;
+  left: calc(50% - 33px);
+  font-size: var(--ui-body-02-size);
+  color: var(--white);
+  text-align: left;
+  z-index: 0;
+}
+.start-test-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  background-color: var(--color-darkorange-100);
+  align-self: stretch;
+  height: 2.38rem;
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  position: relative;
+}
+.log-in,
+.log-in-box,
+.login-body,
+.start-test-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.log-in-box {
+  background-color: var(--white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 32.5rem;
+  height: 26.94rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  gap: var(--gap-4xl);
+}
+.log-in,
+.login-body {
+  overflow: hidden;
+}
+.login-body {
+  flex-direction: row;
+  padding: 6.38rem 3.44rem;
+  align-items: flex-start;
+  gap: 8.94rem;
+}
+.log-in {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: left;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+  font-family: var(--ui-body-02);
+}

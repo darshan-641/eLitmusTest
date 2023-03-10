@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./student-login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="studentlogin">
+      <div class="navbar5">
+        <div class="black-el-group">
+          <img class="black-el-icon5" alt="" src="./public/black-el5.svg" />
+          <div class="login-as-admin-container">
+            <div class="login-as-admin1" id="loginAsAdmin">Login as Admin</div>
+          </div>
+        </div>
+      </div>
+      <div class="admin-body">
+        <div class="frame-parent1">
+          <div class="welcome-to-elitmus-platform-group">
+            <div class="welcome-to-elitmus1">Welcome to eLitmus Platform.</div>
+            <div class="elitmus-is-a1">
+              eLitmus is a first-of-its-kind service in the world. Since it was
+              launched in 2005, eLitmus has been redefining how fresher and
+              entry-level recruitment is done in India. Our proprietary pH Test
+              evaluates job seekers.
+            </div>
+          </div>
+          <form class="log-in-box1">
+            <div class="input-info3">
+              <div class="email-id">Email Id</div>
+              <input class="input-area" type="text" autofocus />
+            </div>
+            <div class="input-info3">
+              <div class="email-id">Password</div>
+              <input class="input-area" type="text" autofocus />
+            </div>
+            <div class="input-info3">
+              <div class="email-id">Test Code</div>
+              <input class="input-area" type="text" autofocus />
+            </div>
+            <button class="log-in-box-inner" id="groupButton">
+              <div class="start-test-container">
+                <div class="start-test1">Start Test</div>
+              </div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var loginAsAdmin = document.getElementById("loginAsAdmin");
+      if (loginAsAdmin) {
+        loginAsAdmin.addEventListener("click", function (e) {
+          window.location.href = "./admin-log-in.html";
+        });
+      }
+      
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./popup.html";
+        });
+      }
+      </script>
+  </body>
+</html>

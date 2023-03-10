@@ -1,0 +1,165 @@
+.black-el-icon5 {
+  position: relative;
+  width: 6.63rem;
+  height: 1.31rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.login-as-admin1 {
+  position: relative;
+  cursor: pointer;
+}
+.login-as-admin-container {
+  border: 1px solid var(--color-darkorange-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.black-el-group,
+.navbar5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.black-el-group {
+  width: 73.75rem;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.navbar5 {
+  align-self: stretch;
+  background-color: var(--white);
+  box-shadow: 0 4px 4px rgba(108, 108, 108, 0.25);
+  padding: var(--padding-sm) var(--padding-31xl);
+  justify-content: flex-start;
+}
+.elitmus-is-a1,
+.welcome-to-elitmus1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 31.06rem;
+}
+.elitmus-is-a1 {
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+}
+.welcome-to-elitmus-platform-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  margin-right: 1.88rem;
+}
+.email-id {
+  position: relative;
+  font-size: var(--ui-body-01-size);
+  font-family: var(--ui-body-02);
+  color: var(--color-black);
+  text-align: left;
+}
+.input-area,
+.input-info3 {
+  width: 26.25rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-area {
+  border: 0;
+  background-color: transparent;
+  height: 2.63rem;
+}
+.input-info3 {
+  height: 4.25rem;
+  gap: var(--gap-6xs);
+}
+.start-test1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0.63rem;
+  left: calc(50% - 33px);
+  font-size: var(--ui-body-02-size);
+  font-weight: 500;
+  font-family: var(--ui-body-02);
+  color: var(--white);
+  text-align: left;
+  z-index: 0;
+}
+.start-test-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkorange-100);
+  width: 26.25rem;
+  height: 2.81rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) 0 var(--padding-3xs) var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.log-in-box-inner {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 26.25rem;
+  height: 2.81rem;
+  flex-shrink: 0;
+}
+.frame-parent1,
+.log-in-box1 {
+  height: 21.25rem;
+  flex-shrink: 0;
+  display: flex;
+}
+.log-in-box1 {
+  background-color: var(--white);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  width: 32.5rem;
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-4xl);
+}
+.frame-parent1 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.admin-body,
+.studentlogin {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.admin-body {
+  padding: var(--padding-90xl) var(--padding-41xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-35xl);
+  color: var(--color-black);
+}
+.studentlogin {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  text-align: left;
+  font-size: var(--ui-body-02-size);
+  color: var(--color-darkorange-100);
+  font-family: var(--ui-body-02);
+}

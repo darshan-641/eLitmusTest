@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./question-answer.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="question-answer">
+      <div class="background-main"><div class="background-main"></div></div>
+      <img class="navbar-icon" alt="" src="./public/navbar.svg" />
+      <div class="test-body">
+        <img class="claritybookmark-solid-icon" alt="" />
+        <div class="frame-parent">
+          <div class="frame-group">
+            <div class="frame-container">
+              <div class="aptitude-test-wrapper">
+                <div class="aptitude-test">Aptitude test</div>
+              </div>
+              <div class="a-train-running-at-the-speed-o-wrapper">
+                <div class="a-train-running-container">
+                  <ul class="a-train-running">
+                    A train running at the speed of 60 km/hr crosses a pole in 9
+                    seconds. What is the length of the train?
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <input class="frame-child" type="text" /><button
+              class="submit-wrapper"
+              id="frameButton"
+            >
+              <div class="submit">Submit</div>
+            </button>
+          </div>
+          <div class="frame-item" id="rectangle"></div>
+        </div>
+        <div class="cisettings-filled"></div>
+      </div>
+      <div class="navbar1">
+        <div class="black-el-wrapper">
+          <img class="black-el-icon1" alt="" src="./public/black-el1.svg" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var frameButton = document.getElementById("frameButton");
+      if (frameButton) {
+        frameButton.addEventListener("click", function (e) {
+          window.location.href = "question-answer.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./admin-log-in.html";
+        });
+      }
+      </script>
+  </body>
+</html>

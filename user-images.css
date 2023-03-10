@@ -1,0 +1,96 @@
+.candidate-name-darshan,
+.image-cap-child {
+  position: relative;
+}
+.image-cap-child {
+  border: 0.5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 12.44rem;
+  height: 7.69rem;
+  flex-shrink: 0;
+}
+.image-cap,
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 12.44rem;
+}
+.image-cap {
+  gap: var(--gap-smi);
+}
+.candidate-name-darshan-revgad-parent,
+.images-block,
+.row-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.row-2 {
+  flex-direction: row;
+  gap: 3.19rem;
+}
+.candidate-name-darshan-revgad-parent,
+.images-block {
+  flex-direction: column;
+}
+.candidate-name-darshan-revgad-parent {
+  position: absolute;
+  top: 7.25rem;
+  left: 2.5rem;
+  gap: 0.88rem;
+}
+.navbar-icon1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 4.81rem;
+}
+.black-el-icon2 {
+  position: relative;
+  width: 6.63rem;
+  height: 1.31rem;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.black-el-container {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar2,
+.user-images {
+  background-color: var(--white);
+}
+.navbar2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(108, 108, 108, 0.25);
+  width: 79.38rem;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.user-images {
+  position: relative;
+  width: 100%;
+  height: 45rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--ui-body-02);
+}
